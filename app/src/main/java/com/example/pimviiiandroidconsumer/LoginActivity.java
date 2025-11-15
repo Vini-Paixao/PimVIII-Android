@@ -52,7 +52,7 @@ public class LoginActivity extends AppCompatActivity {
             Toast.makeText(this, "Login simulado com sucesso!", Toast.LENGTH_SHORT).show();
 
             // Navega da LoginActivity (this) para a MainActivity
-            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+            Intent intent = new Intent(LoginActivity.this, PlaylistActivity.class);
             startActivity(intent);
 
             // Fecha a LoginActivity (para o usuário não voltar apertando "Back")

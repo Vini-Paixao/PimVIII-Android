@@ -21,11 +21,28 @@
         </activity>
         <activity
             android:name=".LoginActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.PimVIIIAndroidConsumer.AppCompat">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".PlaylistActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PimVIIIAndroidConsumer.AppCompat">
+        </activity>
+        <activity
+            android:name=".PlaylistDetailsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PimVIIIAndroidConsumer.AppCompat">
+        </activity>
+        <activity
+            android:name=".PlayerActivity"
+            android:exported="false"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:theme="@style/Theme.PimVIIIAndroidConsumer.AppCompat">
         </activity>
     </application>
 
